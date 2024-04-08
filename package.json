@@ -1,0 +1,19 @@
+{
+  "name": "portal-de-noticiasl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler ./source/arquis-less  ./build/arquis-css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "less": "^4.2.0"
+  },
+  "dependencies": {
+    "less-watch-compiler": "^1.16.3"
+  }
+}
